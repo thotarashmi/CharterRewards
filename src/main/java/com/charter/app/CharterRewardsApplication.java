@@ -1,0 +1,15 @@
+package com.charter.app;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+
+@SpringBootApplication
+@ComponentScan(basePackages = {"com.charter.service", "com.charter.controller"})
+public class CharterRewardsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CharterRewardsApplication.class, args);
+	}
+
+}
